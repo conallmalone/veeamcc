@@ -1,0 +1,49 @@
+{
+	"name": "CurrencyExchange",
+	"version": "0.1.0",
+	"author": [
+		"Conall Malone"
+	],
+	"url": "https://github.com/...",
+	"descriptionmsg": "currencyexchange-desc",
+	"license-name": "GPL v2",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"CurrencyExchangeHooks": "CurrencyExchange.hooks.php",
+		"SpecialCurrencyExchange": "specials/SpecialCurrencyExchange.php"
+	},
+	"config": {
+		"CurrencyExchangeEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"CurrencyExchangeAlias": "CurrencyExchange.i18n.alias.php"
+	},
+	"Hooks": {
+		
+	},
+	"MessagesDirs": {
+		"CurrencyExchange": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.currencyExchange.foo": {
+			"scripts": [
+				"modules/ext.currencyExchange.js"
+			],
+			"styles": [
+				"modules/ext.currencyExchange.foo.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "CurrencyExchange"
+	},
+	"SpecialPages": {
+		"CurrencyExchange": "SpecialCurrencyExchange"
+	},
+	"manifest_version": 1
+}
