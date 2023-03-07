@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": ["Conall Malone"]
+	},
+	"currencyexchange-desc": "Veeam Coding Challenge",
+	"currencyexchange-i18n-welcome": "Welcome to the localization file of the CurrencyExchange extension.",
+	"currencyexchange-title": "Currency Exchange",
+	"currencyexchange-intro": "Welcome to the special page of the CurrencyExchange extension.",
+	"currencyexchange": "Currency Exchange"
+}
